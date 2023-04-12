@@ -1,0 +1,21 @@
+.col-md-3{
+    width: 23%;
+}
+@media (min-width: 768px){
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 23%;
+        
+    }
+
+}
+.anhp1>.row>.col-md-3>img{
+    width: 80%;
+}
+.anhp1>.row{
+    margin-left: 5vw;
+}
+.anhp2>.row>.col-md-3>img{
+    height: 400px;
+    object-fit: cover;
+}
